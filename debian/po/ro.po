@@ -1,0 +1,288 @@
+# Translation of debconf_debconf to Romanian.
+# Traducerea în limba română a mesjelor din debconf_debconf.
+# Copyright  ©  2004, 2005, 2006, 2008, 2023 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the debconf package.
+#
+# Eddy Petrișor <eddy.petrisor@gmail.com>, 2004, 2005, 2006, 2008.
+# Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>, 2023.
+#
+# Cronologia traducerii fișierului „debconf_debconf”:
+# Traducerea inițială, făcută de SB, pentru versiunea debconf_debconf 1.4.30(2004-07-24).
+# Actualizare a traducerii pentru versiunea 1.4.66, făcută de EP, dec-2005.
+# Actualizare a traducerii pentru versiunea 1.4.67, făcută de EP, ian-2006.
+# Actualizare a traducerii pentru versiunea 1.5.24, făcută de EP, oct-2008.
+# Actualizare a traducerii pentru versiunea 1.5.82(2009-08-24), făcută de R-GC, iun-2023.
+# Actualizare a traducerii pentru versiunea Y, făcută de X, Z(luna-anul).
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: debconf_debconf 1.5.82\n"
+"Report-Msgid-Bugs-To: debconf@packages.debian.org\n"
+"POT-Creation-Date: 2009-08-24 19:24+0200\n"
+"PO-Revision-Date: 2023-06-25 13:37+0200\n"
+"Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
+"Language-Team: Romanian <debian-l10n-romanian@lists.debian.org>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2;\n"
+"X-Generator: Poedit 3.2.2\n"
+
+#. Type: select
+#. Choices
+#: ../templates:1001
+msgid "Dialog"
+msgstr "Dialog"
+
+#. Type: select
+#. Choices
+#: ../templates:1001
+msgid "Readline"
+msgstr "Linie de comandă interactivă"
+
+#. Type: select
+#. Choices
+#: ../templates:1001
+msgid "Editor"
+msgstr "Editor"
+
+#. Type: select
+#. Choices
+#: ../templates:1001
+msgid "Noninteractive"
+msgstr "Non-interactivă"
+
+#. Type: select
+#. Description
+#: ../templates:1002
+msgid "Interface to use:"
+msgstr "Interfața folosită:"
+
+#. Type: select
+#. Description
+#: ../templates:1002
+msgid ""
+"Packages that use debconf for configuration share a common look and feel. "
+"You can select the type of user interface they use."
+msgstr ""
+"Pachetele care folosesc «debconf» pentru configurare, sunt asemănătoare în "
+"aspect și comportament. Puteți selecta tipul de interfață utilizat de "
+"acestea."
+
+#. Type: select
+#. Description
+#: ../templates:1002
+msgid ""
+"The dialog frontend is a full-screen, character based interface, while the "
+"readline frontend uses a more traditional plain text interface, and both the "
+"gnome and kde frontends are modern X interfaces, fitting the respective "
+"desktops (but may be used in any X environment). The editor frontend lets "
+"you configure things using your favorite text editor. The noninteractive "
+"frontend never asks you any questions."
+msgstr ""
+"Interfața dialog este o interfață în mod text, pe tot ecranul, în timp ce "
+"linia de comandă folosește o interfață în mod text, mai tradițională, și, "
+"atât interfața Gnome cât și interfața KDE sunt interfețe moderne în X, care "
+"se încadrează în mediile respective (dar pot fi folosite în orice mediu X). "
+"Interfața editor vă permite sa configurați lucrurile folosind editorul de "
+"text preferat de dvs. Interfața non-interactivă nu vă întreabă niciodată "
+"nimic."
+
+#. Type: select
+#. Choices
+#: ../templates:2001
+msgid "critical"
+msgstr "critică"
+
+#. Type: select
+#. Choices
+#: ../templates:2001
+msgid "high"
+msgstr "ridicată"
+
+#. Type: select
+#. Choices
+#: ../templates:2001
+msgid "medium"
+msgstr "medie"
+
+#. Type: select
+#. Choices
+#: ../templates:2001
+msgid "low"
+msgstr "scăzută"
+
+#. Type: select
+#. Description
+#: ../templates:2002
+msgid "Ignore questions with a priority less than:"
+msgstr "Ignoră întrebările cu prioritatea mai mică decât cea:"
+
+#. Type: select
+#. Description
+#: ../templates:2002
+msgid ""
+"Debconf prioritizes the questions it asks you. Pick the lowest priority of "
+"question you want to see:\n"
+"  - 'critical' only prompts you if the system might break.\n"
+"    Pick it if you are a newbie, or in a hurry.\n"
+"  - 'high' is for rather important questions\n"
+"  - 'medium' is for normal questions\n"
+"  - 'low' is for control freaks who want to see everything"
+msgstr ""
+"«debconf» prioritizează întrebările pe care vi le adresează. Alegeți cea mai "
+"mică prioritate a întrebărilor pe care doriți să le vedeți:\n"
+"  - „critică” afișează întrebări doar când sistemul ar putea să se strice.\n"
+"     Alegeți-o dacă sunteți începător, sau vă grăbiți;\n"
+"  - „ridicată” este pentru întrebări destul de importante;\n"
+"  - „medie” este pentru întrebări normale;\n"
+"  - „scăzută” este pentru obsedații de control care vor să vadă tot."
+
+#. Type: select
+#. Description
+#: ../templates:2002
+msgid ""
+"Note that no matter what level you pick here, you will be able to see every "
+"question if you reconfigure a package with dpkg-reconfigure."
+msgstr ""
+"Rețineți că indiferent ce nivel alegeți aici, veți putea să vedeți fiecare "
+"întrebare dacă reconfigurați un pachet cu «dpkg-reconfigure»."
+
+#. Type: text
+#. Description
+#: ../templates:3001
+msgid "Installing packages"
+msgstr "Se instalează pachete"
+
+#. Type: text
+#. Description
+#: ../templates:4001
+msgid "Please wait..."
+msgstr "Vă rugăm, așteptați..."
+
+#. Type: text
+#. Description
+#. This string is the 'title' of dialog boxes that prompt users
+#. when they need to insert a new medium (most often a CD or DVD)
+#. to install a package or a collection of packages
+#: ../templates:6001
+msgid "Media change"
+msgstr "Schimbare de disc"
+
+#~ msgid "Gnome"
+#~ msgstr "Gnome"
+
+#~ msgid "Kde"
+#~ msgstr "Kde"
+
+#~ msgid "Ignore questions with a priority less than..."
+#~ msgstr "Ignoră întrebările cu prioritatea mai mică decât..."
+
+#~ msgid ""
+#~ "Packages that use debconf for configuration prioritize the questions they "
+#~ "might ask you. Only questions with a certain priority or higher are "
+#~ "actually shown to you; all less important questions are skipped."
+#~ msgstr ""
+#~ "Pachetele care utilizează debconf pentru configurare asociază priorități "
+#~ "la posibilele întrebări. Numai întrebările cu o anumită prioritate sau "
+#~ "mai mare vă sunt arătate; toate întrebările mai puțin importante sunt "
+#~ "sărite."
+
+#~ msgid ""
+#~ "You can select the lowest priority of question you want to see:\n"
+#~ " - 'critical' is for items that will probably break the system\n"
+#~ "    without user intervention.\n"
+#~ " - 'high' is for items that don't have reasonable defaults.\n"
+#~ " - 'medium' is for normal items that have reasonable defaults.\n"
+#~ " - 'low' is for trivial items that have defaults that will work in\n"
+#~ "   the vast majority of cases."
+#~ msgstr ""
+#~ "Puteți selecta cel mai scăzut nivel de prioritate a întrebărilor\n"
+#~ "pe care doriți să le vedeți:\n"
+#~ " - 'critic' pentru elemente care probabil vor corupe sistemul\n"
+#~ "     fără intervenția utilizatorului.\n"
+#~ " - 'ridicat' pentru elemente care nu au valori implicite\n"
+#~ "     rezonabile.\n"
+#~ " - 'mediu' pentru elemente normale care au valori implicite \n"
+#~ "     rezonabile.\n"
+#~ " - 'scăzut' pentru elemente triviale care au valori implicite\n"
+#~ "     care funcționează pentru o vastă majoritate a cazurilor."
+
+#~ msgid ""
+#~ "For example, this question is of medium priority, and if your priority "
+#~ "were already 'high' or 'critical', you wouldn't see this question."
+#~ msgstr ""
+#~ "De exemplu, aceasta este o întrebare de nivel mediu, și dacă nivelul ales "
+#~ "este 'ridicat' sau 'critic', nu veți vedea această întrebare."
+
+#~ msgid "Change debconf priority"
+#~ msgstr "Schimbare a priorității debconf"
+
+#~ msgid "Continue"
+#~ msgstr "Continuă"
+
+#~ msgid "Go Back"
+#~ msgstr "Înapoi"
+
+#~ msgid "Yes"
+#~ msgstr "Da"
+
+#~ msgid "No"
+#~ msgstr "Nu"
+
+#~ msgid "Cancel"
+#~ msgstr "Anulează"
+
+#~ msgid ""
+#~ "<Tab> moves between items; <Space> selects; <Enter> activates buttons"
+#~ msgstr ""
+#~ "<Tab> mișcare între elemente; <Spațiu> selectează; <Enter> activează "
+#~ "butoane"
+
+#~ msgid "LTR"
+#~ msgstr "LTR"
+
+#~ msgid "Screenshot"
+#~ msgstr "Captură"
+
+#~ msgid "Screenshot saved as %s"
+#~ msgstr "Captura a fost salvată ca %s"
+
+#~ msgid "!! ERROR: %s"
+#~ msgstr "!! EROARE: %s"
+
+#~ msgid "KEYSTROKES:"
+#~ msgstr "TASTE:"
+
+#~ msgid "Display this help message"
+#~ msgstr "Afișează acest mesaj de ajutor"
+
+#~ msgid "Go back to previous question"
+#~ msgstr "Înapoi la întrebarea anterioară"
+
+#~ msgid "Select an empty entry"
+#~ msgstr "Selectează o intrare goală"
+
+#~ msgid "Prompt: '%c' for help, default=%d> "
+#~ msgstr "Prompt: '%c' pentru ajutor, implicit=%d> "
+
+#~ msgid "Prompt: '%c' for help> "
+#~ msgstr "Prompt: '%c' pentru ajutor> "
+
+#~ msgid "Prompt: '%c' for help, default=%s> "
+#~ msgstr "Prompt: '%c' pentru ajutor, implicit=%s> "
+
+#~ msgid "[Press enter to continue]"
+#~ msgstr "[Apăsați enter pentru a continua]"
+
+#~ msgid "Dialog, Readline, Gnome, Kde, Editor, Noninteractive"
+#~ msgstr "Dialog, Linie de comandă, Gnome, Kde, Editor, Non-interactiv"
+
+#~ msgid "critical, high, medium, low"
+#~ msgstr "critic, ridicat, mediu, scăzut"
+
+#~ msgid "What interface should be used for configuring packages?"
+#~ msgstr ""
+#~ "Ce fel de interfață ar trebui folosită pentru configurarea pachetelor?"
